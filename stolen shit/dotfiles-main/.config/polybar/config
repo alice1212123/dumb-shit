@@ -1,0 +1,402 @@
+
+## Colors ##
+
+[colors]
+background = #222222
+background-alt = #3c3836
+
+foreground = #FFFFFF
+foreground-alt = #FFFFFF
+
+text = #1d2021
+text-alt = #3c3836
+
+primary = #FFFFFF
+secondary = #d65d0e
+
+alert = #fb4934
+
+## Bar Settings ##
+
+[bar/example]
+width = 100%
+height = 22
+radius = 0.0
+fixed-center = true
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+border-size = 0
+border-top-size = 0
+border-bottom-size = 1
+border-color = #1B2224
+
+padding = 0
+
+module-margin = 0
+
+## Fonts ##
+
+font-0 = "Jetbrains Mono Nerd Font:pixelsize=9;2"
+font-1 = "Iosevka Nerd Font:size=9;3"
+font-2 = "Font Awesome Free:size=8;3"
+
+## bspwm Config ##
+
+modules-left = bspwm xwindow
+modules-center = 
+modules-right = updates pulseaudio memory cpu temperature date 
+
+separator = |
+
+tray-position = right
+tray-padding = 2
+
+scroll-up = bspc desktop -f prev.local
+scroll-down = bspc desktop -f next.local
+
+wm-name = bspwm
+wm-restack = bspwm
+enable-ipc = true
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+## Xwindow ##
+
+[module/xwindow]
+type = internal/xwindow
+label = [%title:0:55:.%]
+#label = %title:0:90:..%
+label-padding-left = 1
+label-empty-padding-left = 1
+label-empty-padding-right = 1
+label-empty = [Gnu/linux]
+
+# Added Xwindow Color 
+label-padding-right = 1
+label-empty-foreground = #000000
+label-empty-background = #FFFFFF
+format-foreground = #000000
+label-background = #FFFFFF
+
+## FileSystem ## 
+
+[module/filesystem]
+type = internal/fs
+interval = 1000
+
+mount-0 = /
+
+# %free%
+label-mounted =  %free%
+format-mounted-foreground = #DEDDDA
+format-mounted-padding = 1
+
+label-unmounted = %mountpoint% not mounted
+label-unmounted-foreground = ${colors.text-alt}
+
+## WorkSpaces ##
+
+[module/bspwm]
+type = internal/bspwm
+
+pin-workspaces = true
+inline-mode = false
+
+enable-click = true
+enable-scroll = true
+reverse-scroll = true
+
+fuzzy-match = true
+
+ls-icon-0 = 1;
+ws-icon-1 = 2;
+ws-icon-2 = 3;
+ws-icon-3 = 4;
+ws-icon-4 = 5;
+ws-icon-5 = 6;
+ws-icon-6 = 7;
+ws-icon-8 = 8;
+ws-icon-9 = 9; 
+ws-icon-default = 
+#  
+
+format = <label-state>
+format-font = 2
+label-monitor = %name%
+
+# %index%
+
+label-focused = %name% 
+label-focused-background = #FFFFFF
+label-focused-foreground = #000000
+label-focused-underline= ${colors.primary}
+label-focused-padding = 2
+
+label-occupied = %name%
+label-occupied-foreground = ${color.GREEN}
+label-occupied-background = ${color.BACKGROUND}
+;label-occupied-underline = ${color.GREEN}
+label-occupied-padding = 2
+
+label-urgent =%name%
+label-urgent-foreground = ${color.RED}
+label-urgent-background = ${color.BACKGROUND}
+label-urgent-underline = ${color.RED}
+label-urgent-padding = 2
+
+label-empty = %name%
+label-empty-foreground = #FFFFFF
+label-empty-padding = 2
+
+; Separator in between workspaces
+label-separator = 
+label-separator-padding = 0
+label-separator-foreground = ${color.ALTBLACK}
+
+## Kernel Version ##
+
+[module/kernel]
+type = custom/script
+exec = uname -r
+tail = false 
+interval = 1024
+
+format-foreground = #DEDDDA
+format-prefix = " "
+format-padding = 1
+;format-underline =
+
+## Brightness ##
+
+[module/xbacklight]
+type = internal/xbacklight
+interval = 2
+
+card = intel_backlight@
+
+format = <ramp> <label>
+label = %percentage%%
+
+ramp-width = 10
+ramp-indicator = 
+ramp-indicator-foreground = #DEDDDA
+ramp-indicator-font = 2
+ramp-fill = ─
+ramp-fill-font = 2
+ramp-empty = ─
+ramp-empty-font = 2
+format-foreground = #DEDDDA
+format-padding = 1
+
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
+ramp-3 = 
+ramp-4 = 
+ramp-5 = 
+ramp-6 = 
+ramp-7 = 
+ramp-8 = 
+ramp-9 = 
+ramp-font = 2
+
+## Cpu Load ##
+
+[module/cpu]
+type = internal/cpu
+interval = 2
+format-prefix = " "
+format-prefix-padding-right = 0
+label = %percentage:2%%
+format-foreground = #DEDDDA
+format-padding = 1
+
+## Memory Load ##
+
+[module/memory]
+type = internal/memory
+interval = 2
+format-prefix = " "
+label = %percentage_used%%
+
+format-foreground = #DEDDDA
+format-padding = 1
+
+## Date and Time ##
+
+[module/date]
+type = internal/date
+interval = 1
+
+date = 
+#date-alt = %A %B %e %Y|
+#date-alt-padding-left = 1
+
+#time =  %H:%M |
+time =  %b %d - %I:%M |
+time-alt =
+
+label = %date% %time%
+label-foreground = #DEDDDA
+label-padding = 0
+label-padding-left = 0
+label-padding-right = 0
+
+## Audio ##
+
+[module/pulseaudio]
+type = internal/pulseaudio
+
+format-volume = <ramp-volume> <label-volume>
+label-volume = %percentage%%
+format-volume-foreground = #DEDDDA
+format-volume-padding = 1
+
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
+ramp-volume-3 = 
+ramp-volume-4 = 
+ramp-volume-5 = 
+ramp-volume-6 = 
+ramp-volume-7 = 
+ramp-volume-8 = 
+ramp-volume-9 = 
+ramp-volume-font = 2
+
+label-muted =  muted
+format-muted-foreground = #0A0D0C
+format-muted-background = #FFFFFF
+format-muted-padding = 1
+
+## Cpu Temperature ##
+
+[module/temperature]
+type = internal/temperature
+thermal-zone = 0
+warn-temperature = 60
+
+format = <ramp> <label>
+format-warn = <ramp> <label-warn>
+format-warn-foreground = #DEDDDA
+format-foreground = #DEDDDA
+format-padding = 1
+format-warn-padding = 1
+label = %temperature-c%
+label-warn = %temperature-c%
+interval = 5
+
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
+ramp-3 = 
+ramp-4 = 
+ramp-5 = 
+ramp-6 = 
+ramp-7 = 
+ramp-8 = 
+ramp-9 = 
+ramp-font = 2
+
+## Other Setting ##
+
+[settings]
+screenchange-reload = true
+
+[global/wm]
+margin-top = 0
+margin-bottom = 0
+
+## Pacman Updates ##
+
+[module/updates]
+type = custom/script
+exec = ~/.config/polybar/scripts/pacupdate
+interval = 10000
+label = |   %output%
+label-padding = 1
+format-foreground = #DEDDDA
+format-prefix-foreground = #DEDDDA
+
+## Powermenu ##
+
+[module/powermenu]
+type = custom/menu
+format-spacing = 1
+
+label-open = "  "
+label-open-foregund = #DEDDDA
+#label-close = "cancel"
+label-close-padding = 1
+label-close-background = #7FA094
+label-close-foreground = #000000
+#label-separator = |
+#label-separator-foreground = #DEDDDA
+
+menu-0-0 = Reboot
+menu-0-0-background = #7FA094
+menu-0-0-foreground = #000000
+menu-0-0-padding = 1
+menu-0-0-exec = menu-open-1
+menu-0-1 = Power off
+menu-0-1-background = #7FA094
+menu-0-1-foreground = #000000 
+menu-0-1-padding = 1
+menu-0-1-exec = menu-open-2
+
+menu-1-0 = Cancel
+menu-1-0-background = #7FA094
+menu-1-0-foreground = #000000
+menu-1-0-padding = 1
+menu-1-0-exec = menu-open-0
+menu-1-1 = Reboot
+menu-1-1-background = #7FA094
+menu-1-1-foreground = #000000
+menu-1-1-padding = 1
+menu-1-1-exec = reboot
+
+menu-2-0 = Poweroff
+menu-2-0-background = #7FA094
+menu-2-0-foreground = #000000
+menu-2-0-padding = 1
+menu-2-0-exec = poweroff
+menu-2-1 = Cancel
+menu-2-1-background = #7FA094
+menu-2-1-foreground = #000000
+menu-2-1-padding = 1
+menu-2-1-exec = menu-open-0
+
+## Search ## 
+
+[module/search]
+type = custom/script 
+exec = echo []=
+click-left = ~/.config/polybar/scripts/search.sh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
