@@ -1,2 +1,2 @@
 # poopie-dots
-too lazy to put desc lol 
+very bad rice unixporn moment  
