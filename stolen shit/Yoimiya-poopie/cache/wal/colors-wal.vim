@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/alice/wallpaper/download.jpg"
+let background = "#170f11"
+let foreground = "#c0b0c5"
+let cursor     = "#c0b0c5"
+
+" Colors
+let color0  = "#170f11"
+let color1  = "#AC583B"
+let color2  = "#A26857"
+let color3  = "#BF8A6D"
+let color4  = "#D8936C"
+let color5  = "#3E44A3"
+let color6  = "#685788"
+let color7  = "#c0b0c5"
+let color8  = "#867b89"
+let color9  = "#AC583B"
+let color10 = "#A26857"
+let color11 = "#BF8A6D"
+let color12 = "#D8936C"
+let color13 = "#3E44A3"
+let color14 = "#685788"
+let color15 = "#c0b0c5"

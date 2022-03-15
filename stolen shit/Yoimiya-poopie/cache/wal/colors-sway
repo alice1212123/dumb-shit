@@ -1,0 +1,21 @@
+set $wallpaper /home/alice/wallpaper/download.jpg
+
+set $background #170f11
+set $foreground #c0b0c5
+
+set $color0 #170f11
+set $color1 #AC583B
+set $color2 #A26857
+set $color3 #BF8A6D
+set $color4 #D8936C
+set $color5 #3E44A3
+set $color6 #685788
+set $color7 #c0b0c5
+set $color8 #867b89
+set $color9 #AC583B
+set $color10 #A26857
+set $color11 #BF8A6D
+set $color12 #D8936C
+set $color13 #3E44A3
+set $color14 #685788
+set $color15 #c0b0c5
