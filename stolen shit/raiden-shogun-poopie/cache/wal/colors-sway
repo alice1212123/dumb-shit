@@ -1,0 +1,21 @@
+set $wallpaper /home/alice/shit/wall/cropped-2560-1440-1172301.png
+
+set $background #161319
+set $foreground #e7cddc
+
+set $color0 #161319
+set $color1 #6C5891
+set $color2 #614FA0
+set $color3 #976E99
+set $color4 #BC74A8
+set $color5 #BDA3AD
+set $color6 #D89DAC
+set $color7 #e7cddc
+set $color8 #a18f9a
+set $color9 #6C5891
+set $color10 #614FA0
+set $color11 #976E99
+set $color12 #BC74A8
+set $color13 #BDA3AD
+set $color14 #D89DAC
+set $color15 #e7cddc

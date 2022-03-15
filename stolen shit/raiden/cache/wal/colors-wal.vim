@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/alice/wallpaper/cropped-2560-1440-1173532 (1).jpg"
+let background = "#19101e"
+let foreground = "#ebe0e1"
+let cursor     = "#ebe0e1"
+
+" Colors
+let color0  = "#19101e"
+let color1  = "#96688C"
+let color2  = "#CD7B92"
+let color3  = "#B092A1"
+let color4  = "#CFA7B1"
+let color5  = "#D8BAC4"
+let color6  = "#E0CED2"
+let color7  = "#ebe0e1"
+let color8  = "#a49c9d"
+let color9  = "#96688C"
+let color10 = "#CD7B92"
+let color11 = "#B092A1"
+let color12 = "#CFA7B1"
+let color13 = "#D8BAC4"
+let color14 = "#E0CED2"
+let color15 = "#ebe0e1"

@@ -1,0 +1,21 @@
+set $wallpaper /home/alice/wallpaper/cropped-2560-1440-1173532 (1).jpg
+
+set $background #19101e
+set $foreground #ebe0e1
+
+set $color0 #19101e
+set $color1 #96688C
+set $color2 #CD7B92
+set $color3 #B092A1
+set $color4 #CFA7B1
+set $color5 #D8BAC4
+set $color6 #E0CED2
+set $color7 #ebe0e1
+set $color8 #a49c9d
+set $color9 #96688C
+set $color10 #CD7B92
+set $color11 #B092A1
+set $color12 #CFA7B1
+set $color13 #D8BAC4
+set $color14 #E0CED2
+set $color15 #ebe0e1

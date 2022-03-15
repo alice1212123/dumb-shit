@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/alice/wallpaper/genshin-impact-raiden-shogun-raiden-makoto-devushki-tsvety-l.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1d1c19",
+        "foreground": "#e7cddc",
+        "cursor": "#e7cddc"
+    },
+    "colors": {
+        "color0": "#1d1c19",
+        "color1": "#6C5890",
+        "color2": "#6351A4",
+        "color3": "#A36F9C",
+        "color4": "#7E828B",
+        "color5": "#BAA2AB",
+        "color6": "#D89DAD",
+        "color7": "#e7cddc",
+        "color8": "#a18f9a",
+        "color9": "#6C5890",
+        "color10": "#6351A4",
+        "color11": "#A36F9C",
+        "color12": "#7E828B",
+        "color13": "#BAA2AB",
+        "color14": "#D89DAD",
+        "color15": "#e7cddc"
+    }
+}

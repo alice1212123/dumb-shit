@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/alice/shit/wall/cropped-2560-1440-1172301.png"
+let background = "#161319"
+let foreground = "#e7cddc"
+let cursor     = "#e7cddc"
+
+" Colors
+let color0  = "#161319"
+let color1  = "#6C5891"
+let color2  = "#614FA0"
+let color3  = "#976E99"
+let color4  = "#BC74A8"
+let color5  = "#BDA3AD"
+let color6  = "#D89DAC"
+let color7  = "#e7cddc"
+let color8  = "#a18f9a"
+let color9  = "#6C5891"
+let color10 = "#614FA0"
+let color11 = "#976E99"
+let color12 = "#BC74A8"
+let color13 = "#BDA3AD"
+let color14 = "#D89DAC"
+let color15 = "#e7cddc"
