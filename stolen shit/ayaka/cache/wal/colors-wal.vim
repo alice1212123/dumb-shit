@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/alice/wallpaper/__kamisato_ayaka_genshin_impact_drawn_by_rayleigh_scale__bc4fe587af1a0ce8231d7a99d53dda5e.jpg"
+let background = "#0b0708"
+let foreground = "#efdfc0"
+let cursor     = "#efdfc0"
+
+" Colors
+let color0  = "#0b0708"
+let color1  = "#D2A077"
+let color2  = "#58548D"
+let color3  = "#916F90"
+let color4  = "#7C8198"
+let color5  = "#DBAE90"
+let color6  = "#D5BFBF"
+let color7  = "#efdfc0"
+let color8  = "#a79c86"
+let color9  = "#D2A077"
+let color10 = "#58548D"
+let color11 = "#916F90"
+let color12 = "#7C8198"
+let color13 = "#DBAE90"
+let color14 = "#D5BFBF"
+let color15 = "#efdfc0"

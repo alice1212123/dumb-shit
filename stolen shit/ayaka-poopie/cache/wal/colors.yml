@@ -1,0 +1,24 @@
+wallpaper: "/home/alice/wallpaper/__kamisato_ayaka_genshin_impact_drawn_by_kkk_dami__4090d5e34e0ca5aacce9ed96394eb6f8.png"
+
+special:
+    background: "#2d2228"
+    foreground: "#f2e0ed"
+    cursor: "#f2e0ed"
+
+colors:
+    color0: "#2d2228"
+    color1: "#D2A5AD"
+    color2: "#ABA7CA"
+    color3: "#E1B2D3"
+    color4: "#C6C7D2"
+    color5: "#D4CBD4"
+    color6: "#E3D4D7"
+    color7: "#f2e0ed"
+    color8: "#a99ca5"
+    color9: "#D2A5AD"
+    color10: "#ABA7CA"
+    color11: "#E1B2D3"
+    color12: "#C6C7D2"
+    color13: "#D4CBD4"
+    color14: "#E3D4D7"
+    color15: "#f2e0ed"

@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/alice/wallpaper/__kamisato_ayaka_genshin_impact_drawn_by_kkk_dami__4090d5e34e0ca5aacce9ed96394eb6f8.png"
+let background = "#2d2228"
+let foreground = "#f2e0ed"
+let cursor     = "#f2e0ed"
+
+" Colors
+let color0  = "#2d2228"
+let color1  = "#D2A5AD"
+let color2  = "#ABA7CA"
+let color3  = "#E1B2D3"
+let color4  = "#C6C7D2"
+let color5  = "#D4CBD4"
+let color6  = "#E3D4D7"
+let color7  = "#f2e0ed"
+let color8  = "#a99ca5"
+let color9  = "#D2A5AD"
+let color10 = "#ABA7CA"
+let color11 = "#E1B2D3"
+let color12 = "#C6C7D2"
+let color13 = "#D4CBD4"
+let color14 = "#E3D4D7"
+let color15 = "#f2e0ed"
