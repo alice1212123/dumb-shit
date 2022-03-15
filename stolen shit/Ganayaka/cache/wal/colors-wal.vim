@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/alice/wallpaper/ganyu-kamisato-ayaka-genshin-impact-kimono-anime-games-anime.jpeg"
+let background = "#15070f"
+let foreground = "#e9e1e4"
+let cursor     = "#e9e1e4"
+
+" Colors
+let color0  = "#15070f"
+let color1  = "#A67491"
+let color2  = "#A88C97"
+let color3  = "#A293A7"
+let color4  = "#E3A3A8"
+let color5  = "#9FABCF"
+let color6  = "#D7C1C9"
+let color7  = "#e9e1e4"
+let color8  = "#a39d9f"
+let color9  = "#A67491"
+let color10 = "#A88C97"
+let color11 = "#A293A7"
+let color12 = "#E3A3A8"
+let color13 = "#9FABCF"
+let color14 = "#D7C1C9"
+let color15 = "#e9e1e4"

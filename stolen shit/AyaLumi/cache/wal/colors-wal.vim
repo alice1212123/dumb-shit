@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/alice/wallpaper/ayaka_lumine_with_mask_4k_hd_genshin_impact-2560x1440.jpg"
+let background = "#191319"
+let foreground = "#e7e7e7"
+let cursor     = "#e7e7e7"
+
+" Colors
+let color0  = "#191319"
+let color1  = "#DEA061"
+let color2  = "#4C5896"
+let color3  = "#AAA19F"
+let color4  = "#8581AA"
+let color5  = "#F0DBA3"
+let color6  = "#C2B5C1"
+let color7  = "#e7e7e7"
+let color8  = "#a1a1a1"
+let color9  = "#DEA061"
+let color10 = "#4C5896"
+let color11 = "#AAA19F"
+let color12 = "#8581AA"
+let color13 = "#F0DBA3"
+let color14 = "#C2B5C1"
+let color15 = "#e7e7e7"

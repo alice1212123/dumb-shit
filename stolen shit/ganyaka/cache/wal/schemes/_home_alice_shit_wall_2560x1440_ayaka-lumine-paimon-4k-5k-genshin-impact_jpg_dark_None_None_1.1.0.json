@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/alice/shit/wall/2560x1440_ayaka-lumine-paimon-4k-5k-genshin-impact.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#130f1a",
+        "foreground": "#d4d0dd",
+        "cursor": "#d4d0dd"
+    },
+    "colors": {
+        "color0": "#130f1a",
+        "color1": "#69648F",
+        "color2": "#98778F",
+        "color3": "#6C93AC",
+        "color4": "#AA959E",
+        "color5": "#DDAA9B",
+        "color6": "#EECBB2",
+        "color7": "#d4d0dd",
+        "color8": "#94919a",
+        "color9": "#69648F",
+        "color10": "#98778F",
+        "color11": "#6C93AC",
+        "color12": "#AA959E",
+        "color13": "#DDAA9B",
+        "color14": "#EECBB2",
+        "color15": "#d4d0dd"
+    }
+}
