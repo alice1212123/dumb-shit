@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/alice/shit/wallpaper/mruz3mpo30h81 (2).jpg"
+let background = "#211214"
+let foreground = "#dddbea"
+let cursor     = "#dddbea"
+
+" Colors
+let color0  = "#211214"
+let color1  = "#D86766"
+let color2  = "#C3837E"
+let color3  = "#BEA6BF"
+let color4  = "#E09C9E"
+let color5  = "#C8BBDA"
+let color6  = "#E4D3DF"
+let color7  = "#dddbea"
+let color8  = "#9a99a3"
+let color9  = "#D86766"
+let color10 = "#C3837E"
+let color11 = "#BEA6BF"
+let color12 = "#E09C9E"
+let color13 = "#C8BBDA"
+let color14 = "#E4D3DF"
+let color15 = "#dddbea"

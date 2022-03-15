@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/alice/wallpaper/hu-tao-ghost-genshin-impact-2k-wallpaper-2560x1440-uhdpaper.com-265.1_a.jpg"
+let background = "#160d0d"
+let foreground = "#ecdfd0"
+let cursor     = "#ecdfd0"
+
+" Colors
+let color0  = "#160d0d"
+let color1  = "#B05943"
+let color2  = "#9E6A59"
+let color3  = "#BC916F"
+let color4  = "#E49970"
+let color5  = "#65648A"
+let color6  = "#D8AA95"
+let color7  = "#ecdfd0"
+let color8  = "#a59c91"
+let color9  = "#B05943"
+let color10 = "#9E6A59"
+let color11 = "#BC916F"
+let color12 = "#E49970"
+let color13 = "#65648A"
+let color14 = "#D8AA95"
+let color15 = "#ecdfd0"
